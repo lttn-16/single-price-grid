@@ -1,0 +1,30 @@
+.btn__color{
+    background-color: $color-button;
+    text-align: center;
+    font-size: 80%;
+    height: 21%;
+    margin-top: 10%;
+    margin-left: -1%;
+    border: none;
+    color: $color-button-light;
+    box-shadow: -2px 2px 10px 2px #2b9970;
+    font-weight: bold;
+}
+
+.btn{
+    transition: all .2s;
+
+    &:hover{
+        background-color: $color-button;
+        box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+        -webkit-transform: translate(0px, -10px) scale(1.2);
+        transform: translate(0px, -10px) scale(1.2);
+    }
+
+    &:focus{
+        outline: none;
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    }
+}
+

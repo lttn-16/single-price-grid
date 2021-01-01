@@ -1,0 +1,20 @@
+.section__1{
+    padding: 5% 5% 5% 7%;
+    background-color: white;
+    border-radius: 3% 3% 0 0;
+
+    &__heading{
+        color: #d2e477;
+        font-weight: bold;
+        margin: 4% 0 2% 0;
+        text-shadow: 1px 1px 1px #e0eaae;
+        letter-spacing: 1px;
+    }
+
+    &__description{
+        color: #bbbdc9;
+        margin-bottom: 2%;
+        text-shadow: 1px 1px 2px #d7dbe2;
+        line-height: 22px;
+    }
+}

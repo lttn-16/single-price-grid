@@ -1,0 +1,104 @@
+body {
+  background-color: #e6eff6; }
+
+.container-fluid {
+  width: 41%;
+  font-family: 'Karla', sans-serif;
+  margin-top: 7%; }
+
+h3 {
+  color: #2ab0b7;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #bcf3f0;
+  letter-spacing: 1px;
+  font-size: 120%;
+  margin-top: 2%; }
+
+h5 {
+  font-size: 90%; }
+
+p {
+  font-size: 80%; }
+
+.btn__color {
+  background-color: #bfdf32;
+  text-align: center;
+  font-size: 80%;
+  height: 21%;
+  margin-top: 10%;
+  margin-left: -1%;
+  border: none;
+  color: #f0fdb9;
+  box-shadow: -2px 2px 10px 2px #2b9970;
+  font-weight: bold; }
+
+.btn {
+  transition: all .2s; }
+  .btn:hover {
+    background-color: #bfdf32;
+    box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translate(0px, -10px) scale(1.2);
+    transform: translate(0px, -10px) scale(1.2); }
+  .btn:focus {
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+
+.section__1 {
+  padding: 5% 5% 5% 7%;
+  background-color: white;
+  border-radius: 3% 3% 0 0; }
+  .section__1__heading {
+    color: #d2e477;
+    font-weight: bold;
+    margin: 4% 0 2% 0;
+    text-shadow: 1px 1px 1px #e0eaae;
+    letter-spacing: 1px; }
+  .section__1__description {
+    color: #bbbdc9;
+    margin-bottom: 2%;
+    text-shadow: 1px 1px 2px #d7dbe2;
+    line-height: 22px; }
+
+/* section 2 left */
+.section__2__left {
+  background-color: #2bb3b1;
+  color: #dfffff;
+  padding: 7% 5% 5% 7%;
+  border-radius: 0 0 0 3%; }
+  .section__2__left--h5 {
+    color: #dfffff;
+    letter-spacing: 1px;
+    margin-bottom: 7%;
+    font-weight: bold; }
+  .section__2__left--p1 {
+    font-size: 220%;
+    font-weight: bolder;
+    display: inline;
+    margin-bottom: 5%; }
+  .section__2__left--p2 {
+    opacity: 0.5;
+    font-size: 90%;
+    font-weight: normal;
+    margin-left: 4%;
+    display: inline;
+    position: relative;
+    bottom: 4%; }
+  .section__2__left--p3 {
+    opacity: 0.8;
+    margin-top: 3%; }
+
+/* section 2 right */
+.section__2__right {
+  color: #dfffff;
+  background-color: #4abebd;
+  padding: 5%;
+  border-radius: 0 0 3% 0; }
+  .section__2__right__h5 {
+    letter-spacing: 1px;
+    margin: 5%;
+    font-weight: bold; }
+  .section__2__right__p {
+    padding: 5% 0 0 5%;
+    opacity: 0.8;
+    line-height: 150%; }
